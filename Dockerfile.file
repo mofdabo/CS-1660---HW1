@@ -1,5 +1,0 @@
-FROM openjdk:8
-COPY /Users/muhad/OneDrive/Desktop/Pitt - Spring 2021/CS 1660 - Intro to Cloud Computing/Homeworks/HW1
-WORKDIR /Users/muhad/OneDrive/Desktop/Pitt - Spring 2021/CS 1660 - Intro to Cloud Computing/Homeworks/HW1
-RUN javac GUI.java
-CMD ["java", "GUI"]
